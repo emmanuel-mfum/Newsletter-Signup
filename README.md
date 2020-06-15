@@ -9,3 +9,5 @@ The signup page asks the user to input his first name, last name and email addre
 If for any reasons, the subscription to my newsletter fails, he/she is redirected to a "failure" page asking to contact me or to try again. This page contains a "Try Again" button, which once clicked redirects to the home route ("/"), rendering once again the orginal form with the three input fields.
 
 This Node.js app is deployed on the Internet thanks to Heroku via Git commands through a Hyper Terminal and can be access by clicking on the following link : https://thawing-citadel-75545.herokuapp.com/
+
+PS: The node_modules file is not uploaded as it is too voluminous, but the Node modules used were Express,https and body-parser.
