@@ -34,10 +34,10 @@ app.post("/", function(req, res){ // taps into the data sent via a POST method
 
   const jsonData = JSON.stringify(data); // converts the Javascript object data into JSON
 
-  const url = "https://us10.api.mailchimp.com/3.0/lists/09376e334d";
+  const url = "https://us**.api.mailchimp.com/3.0/lists/**********";
   const options = { // options of the https request
     method:"POST",
-    auth:"emmanuel:d62d92eea15b0e4f0f1e2a035ba0f030-us10"
+    auth:"*****:************"
   }
 
   const request = https.request(url, options, function(response){
@@ -66,9 +66,3 @@ app.post("/failure", function(req, res){
 app.listen(process.env.PORT || 3000, function(){ // the app can both run on the port 3000 or any port choosen by Heroku
   console.log("The server is running on port 3000.");
 });
-
-// API Key
-// d62d92eea15b0e4f0f1e2a035ba0f030-us10
-
-//List ID
-// 09376e334d
